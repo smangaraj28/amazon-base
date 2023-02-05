@@ -7,7 +7,7 @@ import './ProductCard.css';
 import CurrencyFormat from 'components/general/CurrencyFormat';
 import Rating from 'components/general/Rating';
 import AddToCard from 'components/product/AddToCart';
-import { calculatePriceDetails } from 'utils.js/product';
+import { calculatePriceDetails } from 'utils/product';
 
 function ProductCard({ className, product }) {
   const { finalPrice, basePrice, isDiscounted } = calculatePriceDetails(
