@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Orders.scss';
+import './Orders.css';
 
 function Orders() {
   return null;

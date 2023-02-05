@@ -1,0 +1,11 @@
+.h-orders {
+  padding: 0 1rem;
+  cursor: pointer;
+}
+.h-orders__hint {
+  font-size: var(--h6-size);
+  margin-bottom: 0.2rem;
+}
+.h-orders__title {
+  font-weight: bolder;
+}

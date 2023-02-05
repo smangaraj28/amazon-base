@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '@mdi/react';
 import { mdiMinus, mdiPlus } from '@mdi/js';
 
-import './AddToCart.scss';
+import './AddToCart.css';
 
 import { useCartDispatch, useCartState } from 'cart-context';
 

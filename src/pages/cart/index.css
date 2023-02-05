@@ -1,0 +1,25 @@
+.cart {
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+}
+.cart__main {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.cart__items, .cart__summary {
+  margin-right: 1rem;
+  background-color: #fff;
+}
+.cart__items {
+  box-shadow: var(--default-shadow);
+  flex: 1 0 0;
+}
+.cart__summary {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  min-width: 30rem;
+  box-shadow: var(--default-shadow);
+}

@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 import { mdiCartOutline } from '@mdi/js';
 import { Link } from 'react-router-dom';
 
-import './Cart.scss';
+import './Cart.css';
 
 import { useCartState } from 'cart-context';
 

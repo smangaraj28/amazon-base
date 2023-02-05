@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 import { mdiCurrencyInr } from '@mdi/js';
 import classNames from 'classnames';
 
-import './CurrencyFormat.scss';
+import './CurrencyFormat.css';
 
 const currenyCodeIconMap = {
   INR: mdiCurrencyInr,

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Icon from '@mdi/react';
 import { mdiMagnify } from '@mdi/js';
 
-import './Search.scss';
+import './Search.css';
 
 const categories = [
   'All Categories',

@@ -6,7 +6,7 @@ import ProductPage from './pages/product';
 import LoginPage from './pages/login';
 import HomePage from './pages/home';
 
-import './App.scss';
+import './App.css';
 
 function App() {
   return 'Hello App';

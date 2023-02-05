@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Error.scss';
+import './Error.css';
 
 function Error({ message, actionLabel = 'Try again', actionFn }) {
   return (

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { useParams } from "react-router-dom";
 import ImageSlider from '../../components/product/ImageSlider';
 import Information from '../../components/product/Information';
-import './index.scss';
+import './index.css';
 
 import productsApi from 'api/products';
 import Loader from 'components/general/Loader';

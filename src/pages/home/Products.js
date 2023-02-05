@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
-import './Products.scss';
+import './Products.css';
 
 import productsApi from 'api/products';
 import Loader from 'components/general/Loader';

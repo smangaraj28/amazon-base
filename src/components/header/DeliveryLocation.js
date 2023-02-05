@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '@mdi/react';
 import { mdiMapMarkerOutline } from '@mdi/js';
 
-import './DeliveryLocation.scss';
+import './DeliveryLocation.css';
 
 function DeliveryLocation() {
   return null;

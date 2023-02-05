@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import './ImageSlider.scss';
+import './ImageSlider.css';
 
 function ImageSlider({ product }) {
   const [images, setImages] = useState([]);

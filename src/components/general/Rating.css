@@ -1,0 +1,11 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rating__star {
+  margin: 0.2rem;
+  color: #e2e2e2;
+}
+.rating__star--active {
+  color: var(--theme-color-1);
+}

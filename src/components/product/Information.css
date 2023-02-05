@@ -1,0 +1,43 @@
+.information {
+  padding: 2rem 0 0 0;
+}
+.information__header {
+  font-size: var(--h3-size);
+  font-weight: bold;
+}
+.information__category {
+  color: var(--link-color);
+  font-size: var(--h6-size);
+}
+.information__label {
+  color: var(--hint-font-color);
+  font-size: var(--h6-size);
+}
+.information__price {
+  display: flex;
+}
+.information__specs {
+  padding-top: 2rem;
+}
+.information__features {
+  padding-top: 2rem;
+}
+.information__rating {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.information__pricing {
+  padding: 1rem 0 2rem 2rem;
+}
+.information__spec-header {
+  font-size: var(--h4-size);
+  font-weight: bold;
+}
+.information__rating-label {
+  color: var(--link-color);
+  padding-left: 1rem;
+}
+.strikethrough {
+  text-decoration: line-through;
+}

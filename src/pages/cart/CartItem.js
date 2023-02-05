@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '@mdi/react';
 import { mdiClose } from '@mdi/js';
 
-import './CartItem.scss';
+import './CartItem.css';
 
 import CurrencyFormat from 'components/general/CurrencyFormat';
 import { calculatePriceDetails } from 'utils/product';

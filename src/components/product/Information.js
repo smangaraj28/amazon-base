@@ -1,5 +1,5 @@
 import React from 'react';
-import './Information.scss';
+import './Information.css';
 import Rating from 'components/general/Rating';
 import { calculatePriceDetails } from 'utils/product';
 import CurrencyFormat from 'components/general/CurrencyFormat';

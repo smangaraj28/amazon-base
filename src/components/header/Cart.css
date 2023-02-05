@@ -1,0 +1,11 @@
+.h-cart {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+.h-cart__count {
+  font-weight: bolder;
+  color: var(--theme-color-1);
+  margin-left: 0.3rem;
+  font-size: var(--h4-size);
+}

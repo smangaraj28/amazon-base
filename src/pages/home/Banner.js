@@ -3,7 +3,7 @@ import Carousel from 'nuka-carousel';
 import Icon from '@mdi/react';
 import { mdiChevronLeft, mdiChevronRight } from '@mdi/js';
 
-import './Banner.scss';
+import './Banner.css';
 
 const banners = [
   'https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2020/May/gaming_3000x1200._CB431281466_.jpg',

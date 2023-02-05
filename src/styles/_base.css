@@ -1,11 +1,10 @@
 html {
   box-sizing: border-box;
-  // Makes 1rem = 10px;
   font-size: 62.5%;
 
-  * {
+  /* * {
     box-sizing: inherit;
-  }
+  } */
 }
 
 body {

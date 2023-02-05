@@ -1,0 +1,30 @@
+.slider {
+  display: flex;
+}
+.slider__listing {
+  list-style-type: none;
+}
+.slider__list {
+  cursor: pointer;
+  padding: 0 0rem 1rem 1rem;
+}
+.slider__list img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid #a2a6ac;
+  border-radius: 2px;
+}
+.slider__list img:hover {
+  border-color: #e77600;
+}
+.slider__right {
+  padding: 2rem;
+}
+.slider__right img {
+  width: 60rem;
+  height: 60rem;
+  object-fit: contain;
+  object-position: center;
+}

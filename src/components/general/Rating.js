@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 import { mdiStar, mdiStarOutline } from '@mdi/js';
 import classNames from 'classnames';
 
-import './Rating.scss';
+import './Rating.css';
 
 function Rating({ rating, maxRating, size = 1.2 }) {
   return (
