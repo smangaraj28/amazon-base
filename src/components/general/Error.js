@@ -16,7 +16,3 @@ function Error({ message, actionLabel = 'Try again', actionFn }) {
 }
 
 export default Error;
-
-// => functional component
-// => props
-// => useState, useEff

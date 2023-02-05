@@ -6,7 +6,12 @@ import { Link } from 'react-router-dom';
 import './Logo.css';
 
 function Logo({ country = 'in' }) {
-  return null;
+  return (
+    <Link to="/" className="logo">
+      <img className="logo__img" alt="Amazon" src={BrandLogo} />
+      {country && <span className="logo__country">.{country}</span>}
+    </Link>
+  );
 }
 
 export default Logo;

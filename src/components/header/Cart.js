@@ -8,7 +8,14 @@ import './Cart.css';
 import { useCartState } from 'cart-context';
 
 function Cart() {
-  return null;
+  const { totalQuantity } = useCartState();
+
+  return (
+    <Link to="/cart" className="h-cart">
+      <Icon path={mdiCartOutline} size={1.4} />
+      <div className="h-cart__count">{totalQuantity}</div>
+    </Link>
+  );
 }
 
 export default Cart;

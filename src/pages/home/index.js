@@ -7,8 +7,11 @@ import Products from './Products';
 
 function HomePage() {
   return (
-    <div>
-      <Banner/>
+    <div className="home">
+      <Banner />
+      <div className="home__section">
+        <Products />
+      </div>
     </div>
   );
 }
